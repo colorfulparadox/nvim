@@ -49,7 +49,7 @@ vim.cmd("colorscheme kanagawa-wave")
 
 require("maps")
 
-print("hello world") 
+--print("hello world") 
 
 
 local rt = require("rust-tools")
