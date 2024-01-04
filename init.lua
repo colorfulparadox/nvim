@@ -28,7 +28,8 @@ require("lazy").setup("plugins", {
 -- NOTE: You can change these options as you wish!
 
 -- Set highlight on search
-vim.o.hlsearch = false
+vim.opt.hlsearch = false
+vim.opt.incsearch = true
 
 -- Make line numbers default
 vim.opt.number = true
@@ -43,6 +44,8 @@ vim.opt.smartindent = true
 vim.opt.wrap = false
 
 vim.opt.swapfile = false
+
+vim.opt.updatetime = 50
 
 vim.o.background = ""
 vim.cmd("colorscheme kanagawa-wave")
